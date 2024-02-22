@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 2px);
+  height: 100vh; 
+  width: 100%; 
+  max-width: 500px;
+  border: 1px solid rgb(0, 205, 62);
+  margin: auto;
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  overflow-y: auto;
+  background-color: aquamarine;
+  color: black;
+
+}
+.content{
+  flex-grow: 1;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  background-color: aquamarine;
+  color: black;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+ 
+  width: 100%;
+ 
+}
+
+
+.myButton{
+  padding-top: 12px;
+  padding-right: 18px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+/* AddItem.css */
+.form-wrapper {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+}
+
+
+.AddItem{
+  position: absolute;
+  left: -99999px;
+}
+.Add[type='text'] {
+  flex-grow: 1;
+  max-width: calc(100% - 50px);
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+ 
+}
+.Add-button {
+  padding: 8px 12px;
+  font-size: 25px;
+  /* Additional button styles */
+}
+ 
+.search-wrapper {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+}
+
+.searchItem{
+  position: absolute;
+  left: -99999px;
+}
+ .search{
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+ }
+
+ .my-list {
+  list-style: none; 
+  padding: 0; 
+ }
+
+  .content{
+    width: 80%; 
+    margin: 0 auto; 
+  }
+  
+
+  /* Content.css */
+.list-group-item {
+  margin-bottom: 16px; /* Adjust margin-bottom as needed */
+  background-color: gray;
+}
+
+.para{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+  
